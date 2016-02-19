@@ -12,15 +12,15 @@ function checkForDisney(response) {
 };
 
 function setYes(startTime) {
-	$("#main").html("Ja der er disney sjov, og det starter klokken: " + startTime);
+	$("#main").html("Ja der er Disney sjov, og det starter klokken: " + startTime);
 }
 
 function setNo() {
-	$("#main").html("Desværre ikke i dag");
+	$("#main").html("Desværre der er ikke Disney sjov i dag");
 }
 
 function setTooLate(endTime) {
-	$("#main").html("Der var disney sjov i dag, men det er desværre for sent det sluttede klokken: " + endTime);
+	$("#main").html("Der var Disney sjov i dag, men det er desværre for sent det sluttede klokken: " + endTime);
 }
 
 ($(document).ready(function(){
