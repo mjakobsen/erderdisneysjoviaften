@@ -25,7 +25,7 @@ function setTooLate(endTime) {
 
 ($(document).ready(function(){
 	$.ajax({
-	  url: "http://www.dr.dk/mu/Schedule/" + today + "%40dr.dk/mas/whatson/channel/DR1",
+	  url: "https://www.dr.dk/mu/Schedule/" + today + "%40dr.dk/mas/whatson/channel/DR1",
 	}).success(function(response) {
 		checkForDisney(response);
 		if(isThereDisneyTonight !== undefined) {
